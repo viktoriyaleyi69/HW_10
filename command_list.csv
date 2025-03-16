@@ -1,0 +1,16 @@
+  202  git add text_ignore.txt
+  203  git status
+  204  git commit -m "Додано text_ignore.txt до .gitignore"
+  205  touch main_test.txt\ngit add main_test.txt\n
+  206  git commit -m "Створено main_test.txt"\n
+  207  git checkout -b develop\n
+  208  touch develop_test.txt\ngit add develop_test.txt\n
+  209  git commit -m "Створено develop_test.txt"
+  210  echo "just a small change" >> develop_test.txt\ngit add develop_test.txt\n
+  211  git commit -m "Змінено develop_test.txt"\n
+  212  git checkout main\n
+  213  git merge develop\n
+  214  git log
+  215  q
+  216  git branch
+  217  git checkout main
