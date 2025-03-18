@@ -1,4 +1,4 @@
-  202  git add text_ignore.txt
+git clone https://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@github.com/viktoriyaleyi69/HW_10.git  202  git add text_ignore.txt
   203  git status
   204  git commit -m "Додано text_ignore.txt до .gitignore"
   205  touch main_test.txt\ngit add main_test.txt\n
